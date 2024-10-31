@@ -34,6 +34,7 @@ Kata sandi root default: aapanel123
 Analisis penggunaan pelabuhan
 
 Panel Kontrol : 7800
+
 Phpmyadmin : 888
 
 Analisis penggunaan Dir
