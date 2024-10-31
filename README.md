@@ -1,5 +1,9 @@
 Penerapan Docker aaPanel
 
+Image docker ini dirilis secara resmi oleh aaPanel
+
+Dikelola oleh: aaPanel
+
 Saat ini platform arsitektur x86_64 dan ARM tersedia untuk diunduh
 
 
@@ -13,7 +17,7 @@ lnmp tag adalah memasang panel dan pustaka dasar, dan integrasi LNMP terintegras
 
 lamp tag adalah memasang panel dan pustaka dasar, dan integrasi LAMP terintegrasi 【Apache2.4+MySQL5.7+PHP7.4】*tab arm adalah 【MySQL5.6】
 
-Cara penggunaan
+##Cara Menggunakan, Copy pada Docker CLI CasaOS kode berikut:
 
 $docker run -d -p 8886:7800 -p 22:21 -p 443:443 -p 80:80 -p 889:888 -v ~/website_data:/www/wwwroot -v ~/mysql_data:/www/server/data -v ~/vhost:/www/server/panel/vhost aapanel/aapanel:lib
 
